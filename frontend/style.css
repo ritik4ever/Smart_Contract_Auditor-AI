@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.CodeMirror {
+    height: 500px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.vulnerability-card {
+    margin-bottom: 1rem;
+}
+
+.vulnerability-high {
+    border-left: 5px solid #dc3545;
+}
+
+.vulnerability-medium {
+    border-left: 5px solid #ffc107;
+}
+
+.vulnerability-low {
+    border-left: 5px solid #17a2b8;
+}
+
+.vulnerability-badge {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.line-numbers {
+    background-color: #f1f1f1;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    font-family: monospace;
+    margin-right: 0.5rem;
+}
+
+.recommendations {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f5ff;
+    color: #0d6efd;
+}
+
+.scan-stats {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.scan-stats h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.scan-stats p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+#loadingSpinner {
+    margin-left: 1rem;
+}
